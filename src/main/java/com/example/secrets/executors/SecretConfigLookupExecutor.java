@@ -17,14 +17,14 @@
 package com.example.secrets.executors;
 
 import com.example.secrets.models.LookupSecretRequest;
-import com.github.bdpiparva.plugin.base.executors.secrets.LookupExecutor;
+import cd.go.plugin.base.executors.secrets.LookupExecutor;
 import com.thoughtworks.go.plugin.api.response.DefaultGoPluginApiResponse;
 import com.thoughtworks.go.plugin.api.response.GoPluginApiResponse;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.github.bdpiparva.plugin.base.GsonTransformer.toJson;
+import static cd.go.plugin.base.GsonTransformer.toJson;
 
 public class SecretConfigLookupExecutor extends LookupExecutor<LookupSecretRequest> {
     @Override

@@ -16,8 +16,8 @@
 
 package com.example.secrets.validators;
 
-import com.github.bdpiparva.plugin.base.validation.ValidationResult;
-import com.github.bdpiparva.plugin.base.validation.Validator;
+import cd.go.plugin.base.validation.ValidationResult;
+import cd.go.plugin.base.validation.Validator;
 
 import java.util.Map;
 
