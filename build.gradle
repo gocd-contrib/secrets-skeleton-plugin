@@ -8,8 +8,10 @@
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.11
-targetCompatibility = 1.11
+java {
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}
 
 group= "com.example.secrets"
 version = "1.0-SNAPSHOT"
