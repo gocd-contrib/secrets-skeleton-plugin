@@ -33,7 +33,7 @@ ext {
 }
 
 dependencies {
-  implementation group: 'cd.go.plugin.base', name: 'gocd-plugin-base', version: '0.0.5'
+  implementation group: 'cd.go.plugin.base', name: 'gocd-plugin-base', version: '0.0.6'
   compileOnly project.deps.gocdPluginApi
 
   testImplementation platform('org.junit:junit-bom:5.10.0')
