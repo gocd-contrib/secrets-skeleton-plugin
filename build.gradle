@@ -6,7 +6,9 @@
  * user guide available at https://docs.gradle.org/5.0/userguide/tutorial_java_projects.html
  */
 
-apply plugin: 'java'
+plugins {
+  id 'java'
+}
 
 java {
   sourceCompatibility = JavaVersion.VERSION_17
